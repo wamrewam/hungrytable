@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.summary     = %q{Gem to interact with OpenTable's REST API}
   s.description = %q{Gem to interact with OpenTable's REST API}
 
-  s.rubyforge_project = "hungrytable"
+  s.rubyforge_project = "hungrytable-pjc"
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")

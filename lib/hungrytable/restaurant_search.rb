@@ -62,7 +62,8 @@ module Hungrytable
     end
 
     def encoded_date_time
-      URI.encode(opts[:date_time].strftime("%m/%d/%Y %I:%M %p"), /[^a-z0-9\-\.\_\~]/i)
+      #URI.encode(opts[:date_time].strftime("%m/%d/%Y %I:%M %p"), /[^a-z0-9\-\.\_\~]/i)
+      URI.encode(opts[:date_time].strftime("%Y-%m-%dT%H:%M"), /[^a-z0-9\-\.\_\~]/i)
     end
 
     def request_uri
