@@ -3,7 +3,7 @@ $:.push File.expand_path("../lib", __FILE__)
 require "hungrytable/version"
 
 Gem::Specification.new do |s|
-  s.name        = "hungrytable"
+  s.name        = "hungrytable-pjc"
   s.version     = Hungrytable::VERSION
   s.authors     = ["David Chapman", "Nicholas Fine"]
   s.email       = ["david@isotope11.com", 'nicholas.fine@gmail.com']
