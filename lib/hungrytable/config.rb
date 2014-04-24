@@ -15,7 +15,8 @@ module Hungrytable
     end
 
     def base_url
-      'https://toptable.co.uk/api/otapi_v2.ashx'
+      'https://www.opentable.co.uk/api/otapi_v2.ashx'
+      #'https://toptable.co.uk/api/otapi_v2.ashx'
       #'https://secure.opentable.com/api/otapi_v2.ashx'
     end
 
